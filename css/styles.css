@@ -177,9 +177,17 @@ text-align: center;
   background-color: var(--btn-active);
 }
 .solution {
-  background-color: var(--second-bg-color);
+   margin-left: auto;
+  margin-right: auto;
+max-width: 1600px;
+height: 600px;
+background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-bg.jpg");
+background-size: cover;
+  background-color: #C4C4C4;
 }
+
 /*section Переваги Вебстудіо*/
+
 .benefits-list{
   display: flex;
 gap: 30px;}
@@ -188,6 +196,26 @@ gap: 30px;}
  display: block;
      max-width: 100%;
      height: auto;}
+
+.benefits-list-item::before{
+  content: '';
+  display: block;
+  height: 120px;
+  block-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.benefits-list-item:nth-child(1)::before{
+  background-image: url("../images/group1.svg");}
+.benefits-list-item:nth-child(2)::before{
+  background-image: url("../images/group2.svg");}
+  .benefits-list-item:nth-child(3)::before{
+  background-image: url("../images/group3.svg");}
+  .benefits-list-item:nth-child(4)::before{
+  background-image: url("../images/group4.svg");}
+
+
 
 .benefits-title {
   margin-bottom: 10px;
@@ -199,6 +227,8 @@ gap: 30px;}
 }
 /*---------section Чим ми займаємося------------*/
 .work-section{padding-top: 0;}
+
+
 .work-list-item{width: calc((100% - 60px)/3);
  display: block;
      max-width: 100%;
