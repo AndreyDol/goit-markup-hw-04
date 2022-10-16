@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GOIT_Homework_3</title>
+    <title>GOIT_Homework_4</title>
 
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -24,26 +24,33 @@
             >Web<span class="logo logo-span">Studio</span></a
           >
           <ul class="list list-nav">
-            <li class="nav-item">
+            <li>
               <a class="link head-nav" href="./index.html">Студія </a>
             </li>
-            <li class="nav-item">
+            <li>
               <a class="link head-nav current" href="./portfolio.html"
                 >Портфоліо
               </a>
             </li>
-            <li class="nav-item">
+            <li>
               <a class="link head-nav" href="#">Контакти</a>
             </li>
-            <li class="nav-item">
+          </ul>
+          <ul class="list list-contacts">
+            <li>
               <a
                 class="link head-nav header-nav-tel"
                 href="mailto:info@devstudio.com"
+              >
+                <svg class="icon-envelope" width="16" height="12">
+                  <use href="./images/icon.svg#envelope"></use></svg
                 >info@devstudio.com</a
               >
             </li>
-            <li class="nav-item">
+            <li>
               <a class="link head-nav header-nav-tel" href="tel:+380961111111"
+                ><svg class="icon-envelope" width="10" height="16">
+                  <use href="./images/icon.svg#smartphone"></use></svg
                 >+38 096 111 11 11</a
               >
             </li>
@@ -198,31 +205,66 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <a class="link logo logo-futer" href="./index.html"
-          >Web<span class="logo logo-span-footer">Studio</span></a
-        >
-        <address>
-          <a
-            class="link adress"
-            href="https://goo.gl/maps/RLC4pmi2WuarYaL16"
-            target="_blank"
-            rel="noopener noreferrer nofollow"
-            >м. Київ, пр-т Лесі Українки, 26</a
+      <div class="container footer-container">
+        <div>
+          <a class="link logo logo-futer" href="./index.html"
+            >Web<span class="logo logo-span-footer">Studio</span></a
           >
-          <ul class="list">
+          <address>
+            <a
+              class="link adress"
+              href="https://goo.gl/maps/RLC4pmi2WuarYaL16"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+            <ul class="list">
+              <li>
+                <a class="link footer-tel" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="link footer-tel" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <h2 class="footer-title">Приєднуйтесь</h2>
+          <ul class="list icon-container footer-icon">
             <li>
-              <a class="link footer-tel" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+              <a class="social-links footer-social-links" href="">
+                <svg class="icon-social-links" width="20" height="20">
+                  <use href="./images/icon.svg#instagram"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a class="link footer-tel" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+              <a class="social-links footer-social-links" href="">
+                <svg class="icon-social-links" width="20" height="20">
+                  <use href="./images/icon.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-links footer-social-links" href="">
+                <svg class="icon-social-links" width="20" height="20">
+                  <use href="./images/icon.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-links footer-social-links" href="">
+                <svg class="icon-social-links" width="20" height="20">
+                  <use href="./images/icon.svg#linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
