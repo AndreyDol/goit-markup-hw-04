@@ -393,9 +393,11 @@ img {
 }
 
 /*-------------------------Footer---------------------------*/
+.footer-join{margin-left: 70px;}
+
 .footer-container {
   display: flex;
-  gap: 70px;
+  align-items: baseline;
 }
 
 .footer-icon {
@@ -408,7 +410,6 @@ img {
 }
 
 .footer-title {
-  margin-top: 12px;
   margin-bottom: 20px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -484,8 +485,12 @@ img {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
-.card-item:hover,
-.card-item:focus {
+
+.card-links{
+  display: block;
+}
+.card-links:hover,
+.card-links:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
