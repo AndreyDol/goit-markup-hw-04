@@ -260,6 +260,10 @@ img {
   text-transform: uppercase;
   color: var(--main-title-color);
 }
+.benefits-paragraph{
+  line-height: 1.71;
+  /* font-weight:400; */
+}
 /*---------section Чим ми займаємося------------*/
 .work-section {
   padding-top: 0;
